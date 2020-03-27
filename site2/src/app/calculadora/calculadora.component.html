@@ -1,0 +1,25 @@
+<form>
+
+<h5>Soma</h5>
+<input type="number" name="num1" [(ngModel)]="num1"><br>
+<input type="number" name="num2" [(ngModel)]="num2">
+<button type="button" (click)="calcularSoma()"> calcular</button><br>
+
+<h5>Subtrair</h5>
+<input type="number" name="num3" [(ngModel)]="num3"><br>
+<input type="number" name="num4" [(ngModel)]="num4">
+<button type="button" (click)="calcularSubtracao()"> calcular</button><br>
+
+<h5>Multiplicar</h5>
+<input type="number" name="num5" [(ngModel)]="num5"><br>
+<input type="number" name="num6" [(ngModel)]="num6">
+<button type="button" (click)="calcularMultiplicacao()"> calcular</button><br>
+
+<h5>Divisão</h5>
+<!-- Vinculando dados-->
+<input type="number" name="num7" [(ngModel)]="num7"><br>
+<input type="number" name="num8" [(ngModel)]="num8">
+<!--Vinculando ações-->
+<button type="button" (click)="calcularDivisao()"> calcular</button><br>
+
+</form>

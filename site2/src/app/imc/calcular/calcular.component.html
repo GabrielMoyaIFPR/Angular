@@ -1,0 +1,11 @@
+<form>
+<h5>Calculo IMC</h5><br>
+
+<h5>Peso</h5><br>
+<!--Vinculando dados-->
+<input type="number" name="peso" [(ngModel)]="peso"><br>
+<h5>Altura</h5><br>
+<input type="number" name="altura" [(ngModel)]="altura">
+<!--Vinculando ações-->
+<button type="button" (click)="calcularIMCFinal()"> calcular</button>
+</form>
