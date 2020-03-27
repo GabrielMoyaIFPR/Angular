@@ -1,0 +1,34 @@
+//cria o arquivo de controle
+git init
+
+//informações para da o commit
+git config --global user.name...
+git config --global user.email...
+
+//definir repositório
+git remote add origin https://github.com/GabrielMoyaIFPR/Angular.git
+
+//remover repositório
+git remote rm origin
+
+
+// adicionar
+git add *.*
+
+git commit -m primeira_versao
+
+git push -u origin master
+
+//comtrole de clrf
+git config core.autocrlf true
+
+git clone endereco...
+
+git commit -m primeira_versao
+
+git push -u origin master
+
+
+npm install
+
+ng serve -o

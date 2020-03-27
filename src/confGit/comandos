@@ -1,0 +1,12 @@
+- saber os principais comandos npm
+
+ng new site
+
+- quando baixar do git, antes de rodar
+
+npm install
+
+selecionar criar rotas e o css
+
+compilar, rodar e abrir
+ng serve -o
